@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
 
 	// Live reload for data
 	eleventyConfig.addWatchTarget("src/_data")
-	eleventyConfig.addWatchTarget("src/styles")
+	eleventyConfig.addWatchTarget("src/scss")
 
 	// Markdown for descriptions, summaries etc
 	eleventyConfig.addPlugin(EleventyRenderPlugin)

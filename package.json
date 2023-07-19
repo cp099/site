@@ -5,10 +5,10 @@
 	"scripts": {
 		"test:11ty": "eleventy --config=src/eleventy.js --input=src --output=_site --watch --serve",
 		"build:11ty": "eleventy --config=src/eleventy.js --input=src --output=_site",
-		"test:scss": "sass --watch src/scss:_site/scss",
-		"build:scss": "sass src/scss:_site/scss",
-		"test": "run-p test:11ty test:scss",
-		"build": "run-s build:scss build:11ty"
+		"test:sass": "sass --watch src/sass:_site/sass",
+		"build:sass": "sass src/sass:_site/sass",
+		"test": "run-p test:11ty test:sass",
+		"build": "run-s build:sass build:11ty"
 	},
 	"repository": "https://github.com/Atal-Lab-DPSBS/site.git",
 	"author": "Sumukh Prasad <sumukhprasad@icloud.com>",

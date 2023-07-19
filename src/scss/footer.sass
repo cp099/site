@@ -1,0 +1,65 @@
+@import "colors"
+     
+footer
+     background-color: $theme_dark
+     color: $gray98
+     padding: 30px
+     font-family: 'IBM Plex Mono'
+
+     .wave-bg
+          background: url(/_media/elements/wave.svg)
+          height: 1.3rem
+          background-repeat: repeat-x
+          margin-bottom: 25px
+          animation: animate-wave 10s linear infinite
+
+     .footer-flex-content
+          display: flex
+          flex-direction: row
+          justify-content: space-between
+          div
+               img
+                    max-width: 400px
+          
+          .links-section
+               display: flex
+               flex-direction: row
+
+          .links-group
+               margin-left: 25px
+
+          .links
+               font-size: 16px
+               .title
+                    font-weight: bold
+                    font-style: italic
+                    color: #fff
+               ul
+                    list-style: none
+                    padding: 0
+                    margin-top: 0
+               a
+                    color: $gray85
+                    text-decoration: none
+                    &:hover, &:active
+                         color: #fff
+                         text-decoration: underline
+                         transition: all 0.25s
+
+     .endnotes
+          border-top: 1px solid rgba(255, 255, 255, 0.25)
+          padding-top: 10px
+          font-size: 12px
+          color: $gray85
+          font-style: italic
+          display: flex
+          flex-direction: row
+          justify-content: space-between
+          a
+               color: $gray85
+                    
+@keyframes animate-wave
+     0%
+          background-position-x: 0px
+     100%
+          background-position-x: 131px
