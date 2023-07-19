@@ -33,7 +33,7 @@ footer
                .title
                     font-weight: bold
                     font-style: italic
-                    color: #fff
+                    color: $theme_light
                ul
                     list-style: none
                     padding: 0
@@ -44,7 +44,14 @@ footer
                     &:hover, &:active
                          color: #fff
                          text-decoration: underline
+                         font-weight: bold
                          transition: all 0.25s
+                    &::after
+                         content: "↗"
+                         padding-left: 3px
+                         position: relative
+                         bottom: 1px
+                         font-family: 'IBM Plex Mono'
 
      .endnotes
           border-top: 1px solid rgba(255, 255, 255, 0.25)
