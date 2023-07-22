@@ -6,3 +6,30 @@
      margin-top: 25px
      margin-bottom: 50px
      color: $gray41
+
+.principals-message
+     display: grid
+     grid-template-columns: auto auto
+     column-gap: 25px
+     .message-photo
+          max-width: 300px
+          img
+               max-width: 100%
+          .breaker
+               background: url(/_media/elements/wave-dark.svg)
+               height: 1.3rem
+               background-repeat: repeat-x
+               margin-top: 10px
+               margin-bottom: 10px
+               animation: animate-wave 10s linear infinite
+          .author
+               margin: 0 !important
+
+@media (max-width: 750px)
+     .principals-message 
+          display: block
+          .message-photo
+               margin-left: auto
+               margin-right: auto
+               margin-top: 25px
+               max-width: 250px !important
