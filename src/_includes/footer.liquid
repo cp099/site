@@ -2,7 +2,18 @@
      <div class="inspired-by">Inspired by doers, dreamers, and thinkers.</div>
 
      <div>
-          
+          <div class="inspired-by-people">
+               {% for person in people %}
+                    <div class="inspired-by-person">
+                         <a href="{{person.link}}" target="_blank">
+                              <div class="inspired-by-image">
+                                   <img src="{{person.photo_url}}" alt="{{person.name}}">
+                              </div>
+                              <span class="inspiraed-by-person-description">{{person.name}} | {{person.desc}}</span>
+                         </a>
+                    </div>
+               {% endfor %}
+          </div>
      </div>
 </div>
 

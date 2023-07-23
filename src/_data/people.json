@@ -1,0 +1,163 @@
+[
+     {
+          "name": "John Mauchly",
+          "desc": "Physicist",
+          "link": "https://en.wikipedia.org/wiki/John_Mauchly",
+          "photo_url": "/_media/inspirations/John-Mauchly.jpg"
+     },
+     
+     {
+          "name": "J. Presper Eckert",
+          "desc": "Electrical Engineer",
+          "link": "https://en.wikipedia.org/wiki/J._Presper_Eckert",
+          "photo_url": "/_media/inspirations/J-Presper-Eckert.jpg"
+     },
+     
+     {
+          "name": "Ken Thompson",
+          "desc": "Computer Engineer",
+          "link": "https://en.wikipedia.org/wiki/Ken_Thompson",
+          "photo_url": "/_media/inspirations/Ken-Thompson.png"
+     },
+     
+     {
+          "name": "Leslie Lamport",
+          "desc": "Computer scientist and mathematician",
+          "link": "https://en.wikipedia.org/wiki/Leslie_Lamport",
+          "photo_url": "/_media/inspirations/Leslie-Lamport.jpg"
+     },
+     
+     {
+          "name": "Donald Knuth",
+          "desc": "Computer scientist and mathematician",
+          "link": "https://en.wikipedia.org/wiki/Donald_Knuth",
+          "photo_url": "/_media/inspirations/Donald-Knuth.jpg"
+     },
+     
+     {
+          "name": "Dennis Ritchie ",
+          "desc": "Computer Scientist",
+          "link": "https://en.wikipedia.org/wiki/Dennis_Ritchie",
+          "photo_url": "/_media/inspirations/Dennis-Ritchie.jpg"
+     },
+     
+     {
+          "name": "Steve Jobs",
+          "desc": "Visionary",
+          "link": "https://en.wikipedia.org/wiki/Steve_Jobs",
+          "photo_url": "/_media/inspirations/Steve-Jobs.jpg"
+     },
+     
+     {
+          "name": "Steve Wozniak",
+          "desc": "Engineer and inventor",
+          "link": "https://en.wikipedia.org/wiki/Steve_Wozniak",
+          "photo_url": "/_media/inspirations/Steve-Wozniak.jpg"
+     },
+     
+     {
+          "name": "Douglas Englebart",
+          "desc": "Engineer and inventor",
+          "link": "https://en.wikipedia.org/wiki/Douglas_Engelbart",
+          "photo_url": "/_media/inspirations/Douglas-Engelbart.jpg"
+     },
+     
+     {
+          "name": "Alan Kay",
+          "desc": "Mathematician",
+          "link": "https://en.wikipedia.org/wiki/Alan_Kay",
+          "photo_url": "/_media/inspirations/Alan-Kay.jpg"
+     },
+     
+     {
+          "name": "Margret Hamilton",
+          "desc": "Software engineer",
+          "link": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)",
+          "photo_url": "/_media/inspirations/Margaret-Hamilton.jpg"
+     },
+     
+     {
+          "name": "Grace Hopper",
+          "desc": "Software engineer",
+          "link": "https://en.wikipedia.org/wiki/Grace_Hopper",
+          "photo_url": "/_media/inspirations/Grace-Hopper.jpg"
+     },
+     
+     {
+          "name": "Charles Babbage",
+          "desc": "Mathematician and engineer",
+          "link": "https://en.wikipedia.org/wiki/Charles_Babbage",
+          "photo_url": "/_media/inspirations/Charles-Babbage.jpg"
+     },
+     
+     {
+          "name": "Ada Lovelace",
+          "desc": "Mathematician",
+          "link": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+          "photo_url": "/_media/inspirations/Ada-Lovelace.jpg"
+     },
+     
+     {
+          "name": "Ed Catmull",
+          "desc": "President of Pixar",
+          "link": "https://en.wikipedia.org/wiki/Edwin_Catmull",
+          "photo_url": "/_media/inspirations/Ed-Catmull.jpg"
+     },
+     
+     {
+          "name": "Richard Feynman",
+          "desc": "Theoretical Physicist",
+          "link": "https://en.wikipedia.org/wiki/Richard_Feynman",
+          "photo_url": "/_media/inspirations/Richard-Feynman.png"
+     },
+     
+     {
+          "name": "Benoit Mandelbrot",
+          "desc": "Mathematician",
+          "link": "https://en.wikipedia.org/wiki/Benoit_Mandelbrot",
+          "photo_url": "/_media/inspirations/Benoit-Mandelbrot.jpg"
+     },
+     
+     {
+          "name": "J C R Licklider",
+          "desc": "Psychologist and computer scientist",
+          "link": "https://en.wikipedia.org/wiki/J._C._R._Licklider",
+          "photo_url": "/_media/inspirations/J-C-R-Licklider.jpg"
+     },
+     
+     {
+          "name": "Boris Delaunay",
+          "desc": "Mathematician",
+          "link": "https://en.wikipedia.org/wiki/Boris_Delaunay",
+          "photo_url": "/_media/inspirations/Boris-Delaunay.jpg"
+     },
+     
+     {
+          "name": "Georgy Voronoy",
+          "desc": "Mathematician",
+          "link": "https://en.wikipedia.org/wiki/Georgy_Voronoy",
+          "photo_url": "/_media/inspirations/Georgy-Voronoy.jpg"
+     },
+     
+     {
+          "name": "Tim Berners-Lee",
+          "desc": "Computer Scientist",
+          "link": "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
+          "photo_url": "/_media/inspirations/Tim-Berners-Lee.jpg"
+     },
+     
+     {
+          "name": "Alan Turing",
+          "desc": "Mathematician",
+          "link": "https://en.wikipedia.org/wiki/Alan_Turing",
+          "photo_url": "/_media/inspirations/Alan-Turing.jpg"
+     },
+     
+     {
+          "name": "Orville and Wilbur Wright",
+          "desc": "Pioneers of aviation",
+          "link": "https://en.wikipedia.org/wiki/Wright_brothers",
+          "photo_url": "/_media/inspirations/Wright-Brothers.jpg"
+     }
+          
+]
