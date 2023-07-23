@@ -5,3 +5,5 @@ dist
 _site
 package-lock.json
 yarn.lock
+# Local Netlify folder
+.netlify
