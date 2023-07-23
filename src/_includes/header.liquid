@@ -1,0 +1,32 @@
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/tinkering">Tinkering</a>
+    <a href="/stem-education">STEM Education</a>
+    <a href="/technology-for-the-future">Technology for the Future</a>
+    <a href="/about-dips-atl">About DiPS ATL</a>
+  </nav>
+</header>
+<style>
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    opacity: 0; /* Initially set the header to be transparent */
+    animation-name: fadeIn; /* Apply the fadeIn animation */
+    animation-duration: 1s;
+    animation-delay: 0.5s; /* Delay the animation for 0.5 seconds */
+    animation-fill-mode: forwards; /* Maintain the final style after animation */
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px); /* Optional: Add a slight upward animation */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
