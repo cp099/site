@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>DPS South Atal Lab</title>
-		<meta charset="utf-8" />
+  <head>
+    <title>DPS South Atal Lab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/sass/main.css" />
+  </head>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="/sass/main.css" />
+  <body>
+    {% include "header.liquid" %}
 
-	</head>
+    <main>
+      {{ content }}
+    </main>
 
-	<body>
+    {% include "footer.liquid" %}
 
-          <main>
-               {{ content }}
-          </main>
-          
-          {% include "footer.liquid" %}
-	
-	</body>
+  </body>
 </html>
